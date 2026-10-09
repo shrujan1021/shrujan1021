@@ -4,7 +4,7 @@
 
 # Engineering ideas into software.
 
-I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar Institute of Engineering & Technology, Goa, and a Software Engineer Intern at Persistent Systems. I build web applications from interface to database to deployment, and I care about testing, clear UIs, and code that does exactly what it claims.
+I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar Institute of Engineering and Information Technology, Goa, and a Software Engineer Intern at Persistent Systems. I build web applications from interface to database to deployment, and I care about testing, clear UIs, and code that does exactly what it claims.
 
 ---
 
@@ -12,14 +12,14 @@ I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar 
 
 ### Bug Tracking System
 
-A web application that turns informal bug reports into structured, trackable tickets — stored and synced in real time through Firebase Firestore.
+A web application that turns informal bug reports into structured, trackable tickets — stored in Firebase Firestore and triaged from a shared dashboard.
 
 **What it does**
 
 - Structured report form: title, description, steps to reproduce, expected vs. actual result, and priority
 - Firestore-backed dashboard to review, delete, and triage every report in one place
 - Open → Closed status lifecycle with one-click "Mark as Closed"
-- Real-time updates and hosting through Firebase
+- Deployed on Firebase Hosting with cloud persistence through Firestore
 
 **Stack:** HTML · CSS · JavaScript (ES modules) · Firebase Firestore · Firebase Hosting
 
