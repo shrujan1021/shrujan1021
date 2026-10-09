@@ -4,11 +4,11 @@
 
 # Engineering ideas into software.
 
-I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar Institute of Engineering and Information Technology, Goa, and a Software Engineer Intern at Persistent Systems. I build web applications from interface to database to deployment, and I care about testing, clear UIs, and code that does exactly what it claims.
+I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar Institute of Engineering and Information Technology, Goa. I build web applications from interface to database to deployment, and I care about testing, clear UIs, and code that does exactly what it claims.
 
 ---
 
-## Featured project
+## Featured projects
 
 ### Bug Tracking System
 
@@ -33,16 +33,17 @@ A web application that turns informal bug reports into structured, trackable tic
   <img src="https://raw.githubusercontent.com/shrujan1021/BUG_TRACKING_SYSTEM/main/assets/dashboard.png" alt="Bug dashboard listing reports with status badges and triage actions" width="720">
 </p>
 
+### Restaurant Reservation System
+
+A reservation web app built with HTML, CSS, and JavaScript. Bookings are stored in MySQL, with create, update, and delete flows for managing reservations.
+
+### Medication Reminder System
+
+A team-built medication reminder on the Arduino Uno, using a buzzer, LED, and OLED display to deliver time-based alerts.
+
 ---
 
-## Also built
-
-- **Restaurant Reservation System** — reservation web app in HTML, CSS, and JavaScript with a MySQL-backed booking store and basic create, update, and delete flows.
-- **Medication Reminder System** — team-built Arduino (Uno) device using a buzzer, LED, and OLED display to deliver time-based medication alerts.
-
----
-
-## Toolkit
+## Technical Skills
 
 - **Languages:** C, C++, Java, Python, JavaScript
 - **Web development:** HTML, CSS, Firebase (Firestore, Hosting)
