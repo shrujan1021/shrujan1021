@@ -1,326 +1,242 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 640" width="1920" height="640" role="img" aria-label="Shrujan Mitbavkar — Software Engineer. Polished chrome monolith with orbiting ring, sphere, and studio lighting on an obsidian floor.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="533" viewBox="0 0 1600 533" role="img" aria-label="Shrujan Mitbavkar — Engineering ideas into reliable software. IT Engineering Student and Software Engineer Intern.">
   <defs>
-    <!-- ================= GRADIENTS ================= -->
-    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0A0C11"/>
-      <stop offset="0.42" stop-color="#12151E"/>
-      <stop offset="0.67" stop-color="#141827"/>
-      <stop offset="1" stop-color="#0D1017"/>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.55" stop-color="#C7D2FE"/>
+      <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
-    <radialGradient id="wallGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#1B2231" stop-opacity="0.95"/>
-      <stop offset="0.6" stop-color="#151A26" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#0B0D12" stop-opacity="0"/>
+    <linearGradient id="ruleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="hexStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="monoText" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="topFace1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="topFace2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#3730A3"/>
+    </linearGradient>
+    <linearGradient id="topFace3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="topWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1020" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6D28D9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="blueHaze" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#1677FF" stop-opacity="0.30"/>
-      <stop offset="0.5" stop-color="#1677FF" stop-opacity="0.09"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1D4ED8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="beamWhite" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F3F5F8" stop-opacity="0.07"/>
-      <stop offset="0.65" stop-color="#F3F5F8" stop-opacity="0.018"/>
-      <stop offset="1" stop-color="#F3F5F8" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="slit" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1677FF" stop-opacity="0"/>
-      <stop offset="0.35" stop-color="#2E86FF" stop-opacity="0.30"/>
-      <stop offset="0.85" stop-color="#1677FF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- chrome environment: studio softbox bands -->
-    <linearGradient id="chromeA" x1="0.03" y1="0" x2="0.12" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.07" stop-color="#E9EDF3"/>
-      <stop offset="0.15" stop-color="#96A0AE"/>
-      <stop offset="0.23" stop-color="#C9D0DA"/>
-      <stop offset="0.33" stop-color="#5A6270"/>
-      <stop offset="0.43" stop-color="#8B94A2"/>
-      <stop offset="0.50" stop-color="#F0F3F8"/>
-      <stop offset="0.58" stop-color="#6E7684"/>
-      <stop offset="0.67" stop-color="#AAB2BF"/>
-      <stop offset="0.77" stop-color="#444B58"/>
-      <stop offset="0.87" stop-color="#9AA2AF"/>
-      <stop offset="0.94" stop-color="#C6CCD6"/>
-      <stop offset="1" stop-color="#4A515E"/>
-    </linearGradient>
-    <linearGradient id="chromeB" x1="0.1" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F4F6FA"/>
-      <stop offset="0.10" stop-color="#D6DCE5"/>
-      <stop offset="0.20" stop-color="#828B99"/>
-      <stop offset="0.32" stop-color="#B6BECB"/>
-      <stop offset="0.44" stop-color="#4E5663"/>
-      <stop offset="0.54" stop-color="#949DAC"/>
-      <stop offset="0.65" stop-color="#DFE4EB"/>
-      <stop offset="0.76" stop-color="#646C7A"/>
-      <stop offset="0.88" stop-color="#8A93A1"/>
-      <stop offset="1" stop-color="#3E4551"/>
-    </linearGradient>
-    <linearGradient id="chromeC" x1="0" y1="0" x2="0.06" y2="1">
-      <stop offset="0" stop-color="#E6EBF2"/>
-      <stop offset="0.14" stop-color="#B9C1CD"/>
-      <stop offset="0.30" stop-color="#6B7482"/>
-      <stop offset="0.46" stop-color="#A3ACB9"/>
-      <stop offset="0.60" stop-color="#E9EDF3"/>
-      <stop offset="0.74" stop-color="#59616E"/>
-      <stop offset="0.88" stop-color="#818A98"/>
-      <stop offset="1" stop-color="#434A57"/>
-    </linearGradient>
-    <linearGradient id="chromeTop" x1="0" y1="0" x2="0.28" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.45" stop-color="#DCE1E9"/>
-      <stop offset="1" stop-color="#A2AAB7"/>
-    </linearGradient>
-    <linearGradient id="chromeSide" x1="0" y1="0" x2="1" y2="0.25">
-      <stop offset="0" stop-color="#414855"/>
-      <stop offset="0.4" stop-color="#262C37"/>
-      <stop offset="1" stop-color="#141821"/>
-    </linearGradient>
-    <linearGradient id="chromeSideDim" x1="0" y1="0" x2="1" y2="0.2">
-      <stop offset="0" stop-color="#4B5260"/>
-      <stop offset="0.5" stop-color="#2C323E"/>
-      <stop offset="1" stop-color="#181D26"/>
-    </linearGradient>
-    <linearGradient id="ringChrome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.22" stop-color="#C4CBD6"/>
-      <stop offset="0.45" stop-color="#697180"/>
-      <stop offset="0.62" stop-color="#DCE1E9"/>
-      <stop offset="0.8" stop-color="#7B8391"/>
-      <stop offset="1" stop-color="#3A404C"/>
-    </linearGradient>
-    <linearGradient id="ringChromeFront" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#EFF2F7"/>
-      <stop offset="0.3" stop-color="#9FA8B6"/>
-      <stop offset="0.6" stop-color="#565E6B"/>
-      <stop offset="1" stop-color="#20252F"/>
-    </linearGradient>
-    <radialGradient id="sphereBody" cx="0.33" cy="0.27" r="0.98">
-      <stop offset="0" stop-color="#FBFCFE"/>
-      <stop offset="0.14" stop-color="#E2E7EE"/>
-      <stop offset="0.34" stop-color="#A9B1BE"/>
-      <stop offset="0.52" stop-color="#727B89"/>
-      <stop offset="0.68" stop-color="#454C59"/>
-      <stop offset="0.84" stop-color="#232833"/>
-      <stop offset="1" stop-color="#0F1219"/>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
     </radialGradient>
-
-    <linearGradient id="silverText" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.55" stop-color="#DCE1E9"/>
-      <stop offset="1" stop-color="#AEB6C2"/>
-    </linearGradient>
-    <linearGradient id="accentRule" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1677FF" stop-opacity="1"/>
-      <stop offset="0.55" stop-color="#1677FF" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="hRule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1677FF"/>
-      <stop offset="0.55" stop-color="#1677FF" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#111521"/>
-      <stop offset="0.35" stop-color="#0C0F16"/>
-      <stop offset="1" stop-color="#08090D"/>
-    </linearGradient>
-    <linearGradient id="horizonBlue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1677FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#4A9BFF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="reflFade" x1="0" y1="430" x2="0" y2="640" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.62"/>
-      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="poolBlue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1677FF" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#1677FF" stop-opacity="0"/>
-    </linearGradient>
-
-    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
-      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.44"/>
+    <radialGradient id="sphere" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#E0F2FE"/>
+      <stop offset="0.35" stop-color="#818CF8"/>
+      <stop offset="0.75" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
     </radialGradient>
-    <linearGradient id="vigBottom" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.5"/>
-    </linearGradient>
-    <linearGradient id="vigTop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000000" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- ================= FILTERS ================= -->
-    <filter id="b2" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.4"/></filter>
-    <filter id="b5" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5"/></filter>
-    <filter id="b9" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
-    <filter id="b16" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="16"/></filter>
-    <filter id="b30" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="30"/></filter>
-    <filter id="reflBlur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.6"/></filter>
-    <filter id="blueGlow" x="-150%" y="-600%" width="400%" height="1300%"><feGaussianBlur stdDeviation="6.5"/></filter>
-    <filter id="slitGlow" x="-300%" y="-40%" width="700%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
-
-    <mask id="reflMask">
-      <rect x="0" y="430" width="1920" height="210" fill="url(#reflFade)"/>
-    </mask>
-
-    <!-- ================= SCULPTURE (reused for reflection) ================= -->
-    <g id="sculpt">
-      <!-- orbit ring: back arc (behind monolith) -->
-      <g transform="rotate(-13 1420 298)">
-        <path d="M 1182 298 A 238 68 0 0 1 1658 298" fill="none" stroke="url(#ringChrome)" stroke-width="16" stroke-linecap="round"/>
-        <path d="M 1182 298 A 238 68 0 0 1 1658 298" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.6" transform="translate(0,-5.2)"/>
-        <path d="M 1182 298 A 238 68 0 0 1 1658 298" fill="none" stroke="#1677FF" stroke-width="2" stroke-linecap="round" opacity="0.75" transform="translate(0,5.6)"/>
-      </g>
-
-      <!-- pedestal x1338-1502 y378-428 -->
-      <polygon points="1338,378 1502,378 1528,366 1364,366" fill="url(#chromeTop)"/>
-      <polygon points="1502,378 1528,366 1528,416 1502,428" fill="url(#chromeSide)"/>
-      <rect x="1338" y="378" width="164" height="50" fill="url(#chromeB)"/>
-      <rect x="1499.4" y="378" width="2.6" height="50" fill="#1677FF" opacity="0.6"/>
-      <rect x="1338" y="378.5" width="164" height="1.6" fill="#FFFFFF" opacity="0.5"/>
-      <rect x="1338" y="378" width="164" height="50" fill="#000000" opacity="0.16"/>
-
-      <!-- seam A: pedestal -> seg1 -->
-      <rect x="1356" y="370.5" width="128" height="6.4" fill="#1677FF" opacity="1" filter="url(#blueGlow)"/>
-      <rect x="1356" y="372" width="128" height="2.6" fill="#DFEEFF"/>
-
-      <!-- segment 1 x1352-1488 y292-370 -->
-      <polygon points="1352,292 1488,292 1514,280 1378,280" fill="url(#chromeTop)"/>
-      <polygon points="1488,292 1514,280 1514,358 1488,370" fill="url(#chromeSide)"/>
-      <rect x="1352" y="292" width="136" height="78" fill="url(#chromeA)"/>
-      <rect x="1485.4" y="292" width="2.6" height="78" fill="#1677FF" opacity="0.65"/>
-      <rect x="1352" y="292.5" width="136" height="1.6" fill="#FFFFFF" opacity="0.55"/>
-      <rect x="1362" y="300" width="46" height="9" rx="3" fill="#FFFFFF" opacity="0.30" filter="url(#b2)"/>
-
-      <!-- seam B: seg1 -> seg2 -->
-      <rect x="1368" y="285" width="104" height="5" fill="#1677FF" opacity="0.85" filter="url(#blueGlow)"/>
-      <rect x="1368" y="286" width="104" height="2.2" fill="#CFE6FF"/>
-
-      <!-- segment 2 x1364-1476 y214-284 -->
-      <polygon points="1364,214 1476,214 1502,202 1390,202" fill="url(#chromeTop)"/>
-      <polygon points="1476,214 1502,202 1502,272 1476,284" fill="url(#chromeSideDim)"/>
-      <rect x="1364" y="214" width="112" height="70" fill="url(#chromeB)"/>
-      <rect x="1473.4" y="214" width="2.6" height="70" fill="#1677FF" opacity="0.6"/>
-      <rect x="1364" y="214.5" width="112" height="1.5" fill="#FFFFFF" opacity="0.5"/>
-
-      <!-- seam C: seg2 -> seg3 -->
-      <rect x="1380" y="207" width="80" height="4.6" fill="#1677FF" opacity="0.8" filter="url(#blueGlow)"/>
-      <rect x="1380" y="207.8" width="80" height="2" fill="#CFE6FF"/>
-
-      <!-- segment 3 x1376-1464 y142-206 -->
-      <polygon points="1376,142 1464,142 1490,130 1402,130" fill="url(#chromeTop)"/>
-      <polygon points="1464,142 1490,130 1490,194 1464,206" fill="url(#chromeSide)"/>
-      <rect x="1376" y="142" width="88" height="64" fill="url(#chromeC)"/>
-      <rect x="1461.4" y="142" width="2.6" height="64" fill="#1677FF" opacity="0.65"/>
-      <rect x="1376" y="142.5" width="88" height="1.5" fill="#FFFFFF" opacity="0.55"/>
-
-      <!-- seam D: seg3 -> crown -->
-      <rect x="1396" y="135" width="52" height="4.2" fill="#1677FF" opacity="0.75" filter="url(#blueGlow)"/>
-      <rect x="1396" y="135.6" width="52" height="1.8" fill="#CFE6FF"/>
-
-      <!-- crown x1392-1448 y106-134 -->
-      <ellipse cx="1420" cy="103" rx="52" ry="11" fill="#1677FF" opacity="0.4" filter="url(#b9)"/>
-      <polygon points="1392,106 1448,106 1474,94 1418,94" fill="url(#chromeTop)"/>
-      <polygon points="1448,106 1474,94 1474,122 1448,134" fill="url(#chromeSideDim)"/>
-      <rect x="1392" y="106" width="56" height="28" fill="url(#chromeA)"/>
-      <rect x="1445.4" y="106" width="2.6" height="28" fill="#1677FF" opacity="0.7"/>
-      <rect x="1392" y="106.5" width="56" height="1.4" fill="#FFFFFF" opacity="0.6"/>
-
-      <!-- orbit ring: front arc (over monolith) -->
-      <g transform="rotate(-13 1420 298)">
-        <path d="M 1658 298 A 238 68 0 0 1 1182 298" fill="none" stroke="url(#ringChromeFront)" stroke-width="16" stroke-linecap="round"/>
-        <path d="M 1650 310 A 230 62 0 0 1 1190 310" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity="0.3"/>
-        <path d="M 1658 298 A 238 68 0 0 1 1182 298" fill="none" stroke="#0B0D12" stroke-width="1.1" stroke-linecap="round" opacity="0.45" transform="translate(0,6.5)"/>
-      </g>
-
-      <!-- low slab x1548-1672 y388-428 -->
-      <polygon points="1548,388 1672,388 1698,376 1574,376" fill="url(#chromeTop)"/>
-      <polygon points="1672,388 1698,376 1698,416 1672,428" fill="url(#chromeSide)"/>
-      <rect x="1548" y="388" width="124" height="40" fill="url(#chromeC)"/>
-      <rect x="1669.4" y="388" width="2.6" height="40" fill="#1677FF" opacity="0.6"/>
-      <rect x="1548" y="388.5" width="124" height="1.5" fill="#FFFFFF" opacity="0.5"/>
-      <rect x="1548" y="388" width="124" height="40" fill="#000000" opacity="0.10"/>
-
-      <!-- polished sphere -->
-      <circle cx="1268" cy="378" r="52" fill="url(#sphereBody)"/>
-      <ellipse cx="1248" cy="355" rx="15" ry="8" fill="#FFFFFF" opacity="0.55" filter="url(#b2)" transform="rotate(-26 1248 355)"/>
-      <ellipse cx="1243" cy="348" rx="6" ry="3.4" fill="#FFFFFF" opacity="0.85" transform="rotate(-26 1243 348)"/>
-      <path d="M 1306 348 A 52 52 0 0 1 1288 422" fill="none" stroke="#1677FF" stroke-width="4.5" opacity="0.65" filter="url(#b2)"/>
-      <path d="M 1308 351 A 52 52 0 0 1 1291 419" fill="none" stroke="#8CC2FF" stroke-width="1.5" opacity="0.85"/>
-      <path d="M 1230 414 A 52 52 0 0 0 1302 410" fill="none" stroke="#8E96A4" stroke-width="3.5" opacity="0.28" filter="url(#b2)"/>
-    </g>
+    <radialGradient id="floorBounce" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0.62" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.38"/>
+    </radialGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="microGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#334155" stroke-width="1" opacity="0.28"/>
+    </pattern>
   </defs>
 
-  <!-- ===================== BACKGROUND WALL ===================== -->
-  <rect width="1920" height="430" fill="url(#wall)"/>
-  <ellipse cx="1420" cy="290" rx="600" ry="380" fill="url(#wallGlow)"/>
-  <ellipse cx="1430" cy="330" rx="430" ry="260" fill="url(#blueHaze)"/>
-  <g filter="url(#b30)">
-    <polygon points="230,-40 545,-40 -140,660 -430,660" fill="url(#beamWhite)"/>
+  <!-- base -->
+  <rect width="1600" height="533" fill="#0A0E1A"/>
+  <rect width="1600" height="533" fill="url(#microGrid)" opacity="0.5"/>
+  <rect width="1600" height="140" fill="url(#topWash)"/>
+
+  <!-- ambient light pools -->
+  <ellipse cx="1180" cy="180" rx="540" ry="380" fill="url(#glowViolet)"/>
+  <ellipse cx="1430" cy="420" rx="430" ry="300" fill="url(#glowBlue)"/>
+  <ellipse cx="990" cy="470" rx="320" ry="180" fill="url(#glowCyan)"/>
+  <ellipse cx="170" cy="500" rx="380" ry="220" fill="url(#glowViolet)" opacity="0.45"/>
+
+  <!-- perspective floor -->
+  <g stroke="#22D3EE" stroke-width="1.4" opacity="0.16">
+    <line x1="1000" y1="352" x2="120" y2="533"/>
+    <line x1="1000" y1="352" x2="360" y2="533"/>
+    <line x1="1000" y1="352" x2="600" y2="533"/>
+    <line x1="1000" y1="352" x2="820" y2="533"/>
+    <line x1="1000" y1="352" x2="1000" y2="533"/>
+    <line x1="1000" y1="352" x2="1180" y2="533"/>
+    <line x1="1000" y1="352" x2="1380" y2="533"/>
+    <line x1="1000" y1="352" x2="1600" y2="520"/>
+    <line x1="1000" y1="352" x2="1600" y2="430"/>
+  </g>
+  <g stroke="#6366F1" stroke-width="1.2" opacity="0.14">
+    <line x1="0" y1="392" x2="1600" y2="392"/>
+    <line x1="0" y1="424" x2="1600" y2="424"/>
+    <line x1="0" y1="468" x2="1600" y2="468"/>
+    <line x1="0" y1="520" x2="1600" y2="520"/>
+  </g>
+  <rect x="0" y="350" width="1600" height="2.5" fill="url(#ruleGrad)" opacity="0.55"/>
+
+  <!-- stars / particles -->
+  <g fill="#E0F2FE">
+    <circle cx="560" cy="70" r="1.4" opacity="0.55"/>
+    <circle cx="640" cy="120" r="1" opacity="0.4"/>
+    <circle cx="760" cy="52" r="1.2" opacity="0.5"/>
+    <circle cx="880" cy="96" r="1" opacity="0.35"/>
+    <circle cx="990" cy="60" r="1.5" opacity="0.5"/>
+    <circle cx="1120" cy="42" r="1" opacity="0.4"/>
+    <circle cx="1260" cy="80" r="1.3" opacity="0.45"/>
+    <circle cx="1380" cy="48" r="1" opacity="0.35"/>
+    <circle cx="1500" cy="100" r="1.4" opacity="0.5"/>
+    <circle cx="1540" cy="200" r="1" opacity="0.35"/>
+    <circle cx="70" cy="120" r="1.2" opacity="0.4"/>
+    <circle cx="250" cy="60" r="1" opacity="0.3"/>
+  </g>
+  <g fill="#67E8F9">
+    <circle cx="820" cy="140" r="2" opacity="0.7"/>
+    <circle cx="1450" cy="160" r="2" opacity="0.6"/>
+    <circle cx="620" cy="330" r="1.8" opacity="0.5"/>
+    <circle cx="1560" cy="330" r="1.8" opacity="0.5"/>
   </g>
 
-  <!-- vertical backlight slit behind sculpture -->
-  <rect x="1372" y="40" width="96" height="390" fill="url(#slit)" filter="url(#slitGlow)"/>
-  <rect x="1418.6" y="70" width="2.4" height="360" fill="#4A9BFF" opacity="0.5" filter="url(#b5)"/>
-
-  <!-- ===================== FLOOR ===================== -->
-  <rect x="0" y="430" width="1920" height="210" fill="url(#floorGrad)"/>
-
-  <!-- perspective lines (technical depth, very subtle) -->
-  <g stroke="#C6CCD6" stroke-width="1" opacity="0.05">
-    <line x1="1420" y1="430" x2="-600" y2="640"/>
-    <line x1="1420" y1="430" x2="-40" y2="640"/>
-    <line x1="1420" y1="430" x2="450" y2="640"/>
-    <line x1="1420" y1="430" x2="880" y2="640"/>
-    <line x1="1420" y1="430" x2="1290" y2="640"/>
-    <line x1="1420" y1="430" x2="1720" y2="640"/>
-    <line x1="1420" y1="430" x2="2150" y2="640"/>
-    <line x1="1420" y1="430" x2="2600" y2="640"/>
+  <!-- corner brackets -->
+  <g fill="none" stroke="#22D3EE" stroke-width="2.4" opacity="0.45">
+    <path d="M28 64V28H64"/>
+    <path d="M1536 28H1572V64"/>
+    <path d="M1572 469V505H1536"/>
   </g>
 
-  <!-- concentric stage rings -->
-  <ellipse cx="1420" cy="446" rx="330" ry="34" fill="none" stroke="#C6CCD6" stroke-width="1" opacity="0.07"/>
-  <ellipse cx="1420" cy="470" rx="480" ry="54" fill="none" stroke="#C6CCD6" stroke-width="1" opacity="0.045"/>
-
-  <!-- horizon -->
-  <rect x="0" y="429" width="1920" height="1.4" fill="#2E3644" opacity="0.9"/>
-  <rect x="1000" y="428" width="840" height="3.4" fill="url(#horizonBlue)" filter="url(#b5)" opacity="0.8"/>
-  <rect x="1060" y="429.4" width="720" height="1.6" fill="url(#horizonBlue)"/>
-
-  <!-- blue light pool on floor under sculpture -->
-  <ellipse cx="1420" cy="470" rx="300" ry="52" fill="url(#poolBlue)" filter="url(#b16)"/>
-
-  <!-- ===================== REFLECTION ===================== -->
-  <g mask="url(#reflMask)" filter="url(#reflBlur)" opacity="0.85">
-    <use href="#sculpt" transform="matrix(1 0 0 -1 0 860)"/>
+  <!-- SM monogram emblem -->
+  <g transform="translate(170,268)">
+    <circle r="92" fill="#7C3AED" opacity="0.22" filter="url(#bigGlow)"/>
+    <polygon points="0,-84 72.7,-42 72.7,42 0,84 -72.7,42 -72.7,-42" fill="#0C1226" fill-opacity="0.85" stroke="url(#hexStroke)" stroke-width="3.2" filter="url(#softGlow)"/>
+    <polygon points="0,-64 55.4,-32 55.4,32 0,64 -55.4,32 -55.4,-32" fill="none" stroke="#334155" stroke-width="1.2" opacity="0.7"/>
+    <text x="0" y="19" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="4" fill="url(#monoText)" filter="url(#textGlow)">SM</text>
+    <g fill="#22D3EE">
+      <circle cx="0" cy="-84" r="4.5"/><circle cx="72.7" cy="-42" r="4.5"/>
+      <circle cx="72.7" cy="42" r="4.5"/><circle cx="0" cy="84" r="4.5"/>
+      <circle cx="-72.7" cy="42" r="4.5"/><circle cx="-72.7" cy="-42" r="4.5"/>
+    </g>
   </g>
 
-  <!-- ===================== CONTACT SHADOWS ===================== -->
-  <ellipse cx="1420" cy="432" rx="152" ry="9" fill="#04060A" opacity="0.9" filter="url(#b9)"/>
-  <ellipse cx="1268" cy="432" rx="54" ry="8" fill="#04060A" opacity="0.85" filter="url(#b5)"/>
-  <ellipse cx="1612" cy="432" rx="78" ry="7" fill="#04060A" opacity="0.85" filter="url(#b5)"/>
+  <!-- typography -->
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <text x="290" y="236" font-size="58" font-weight="800" letter-spacing="4" fill="url(#nameGrad)" filter="url(#textGlow)">SHRUJAN MITBAVKAR</text>
+    <text x="290" y="288" font-size="30" font-weight="500" fill="#E2E8F0">Engineering ideas into <tspan fill="#67E8F9" font-weight="600">reliable software.</tspan></text>
+    <text x="290" y="328" font-size="17.5" font-weight="600" letter-spacing="3.6" fill="#94A3B8">IT ENGINEERING STUDENT · SOFTWARE ENGINEER INTERN</text>
+  </g>
+  <rect x="290" y="348" width="240" height="3.5" rx="1.75" fill="url(#ruleGrad)"/>
+  <rect x="538" y="344.5" width="10" height="10" transform="rotate(45 543 349.5)" fill="#22D3EE"/>
 
-  <!-- ===================== SCULPTURE ===================== -->
-  <use href="#sculpt"/>
+  <!-- orbit rings -->
+  <g transform="rotate(-18 1225 250)" fill="none">
+    <ellipse cx="1225" cy="250" rx="268" ry="96" stroke="url(#ringGrad)" stroke-width="7" opacity="0.35" filter="url(#bigGlow)"/>
+    <ellipse cx="1225" cy="250" rx="268" ry="96" stroke="url(#ringGrad)" stroke-width="6.5" opacity="0.95"/>
+  </g>
+  <g transform="rotate(26 1225 255)" fill="none">
+    <ellipse cx="1225" cy="255" rx="205" ry="68" stroke="#22D3EE" stroke-width="2" opacity="0.55" stroke-dasharray="14 10"/>
+  </g>
 
-  <!-- ===================== TYPOGRAPHY ===================== -->
-  <rect x="118" y="211" width="2.6" height="180" fill="url(#accentRule)"/>
-  <text x="141" y="240" font-family="'Segoe UI Variable Display','Segoe UI Variable','Segoe UI',system-ui,sans-serif"
-        font-size="15" font-weight="600" letter-spacing="6.5" fill="#2F8BFF">SOFTWARE ENGINEER</text>
-  <text x="140" y="312" font-family="'Segoe UI Variable Display','Segoe UI Variable','Segoe UI',system-ui,sans-serif"
-        font-size="58" font-weight="600" letter-spacing="0.4" fill="url(#silverText)">Shrujan Mitbavkar</text>
-  <rect x="140" y="344" width="330" height="1.8" fill="url(#hRule)"/>
-  <text x="141" y="380" font-family="'Segoe UI Variable Display','Segoe UI Variable','Segoe UI',system-ui,sans-serif"
-        font-size="14.5" font-weight="500" letter-spacing="3.4" fill="#96A0B0">INFORMATION TECHNOLOGY · WEB DEVELOPMENT · SOFTWARE TESTING</text>
+  <!-- floor bounce light under sculpture -->
+  <ellipse cx="1235" cy="372" rx="240" ry="30" fill="url(#floorBounce)"/>
 
-  <!-- ===================== ATMOSPHERE ===================== -->
-  <rect width="1920" height="640" fill="url(#vig)"/>
-  <rect y="0" width="1920" height="150" fill="url(#vigTop)"/>
-  <rect y="490" width="1920" height="150" fill="url(#vigBottom)"/>
+  <!-- isometric slab stack -->
+  <!-- bottom slab -->
+  <g>
+    <polygon points="1230,196 1348,252 1230,308 1112,252" fill="url(#topFace1)" stroke="#818CF8" stroke-width="1.6" stroke-opacity="0.65"/>
+    <polygon points="1112,252 1230,308 1230,352 1112,296" fill="#0B1224" stroke="#312E81" stroke-width="1.4"/>
+    <polygon points="1348,252 1230,308 1230,352 1348,296" fill="#111B36" stroke="#3730A3" stroke-width="1.4"/>
+    <line x1="1112" y1="252" x2="1230" y2="308" stroke="#67E8F9" stroke-width="1.6" opacity="0.55"/>
+  </g>
+  <!-- middle slab -->
+  <g>
+    <polygon points="1268,140 1358,182 1268,224 1178,182" fill="url(#topFace2)" stroke="#C084FC" stroke-width="1.6" stroke-opacity="0.6"/>
+    <polygon points="1178,182 1268,224 1268,258 1178,216" fill="#0D1329" stroke="#4C1D95" stroke-width="1.4"/>
+    <polygon points="1358,182 1268,224 1268,258 1358,216" fill="#151D3D" stroke="#5B21B6" stroke-width="1.4"/>
+    <line x1="1178" y1="182" x2="1268" y2="224" stroke="#C4B5FD" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <!-- top slab -->
+  <g>
+    <polygon points="1176,92 1240,122 1176,152 1112,122" fill="url(#topFace3)" stroke="#67E8F9" stroke-width="1.5" stroke-opacity="0.65"/>
+    <polygon points="1112,122 1176,152 1176,180 1112,150" fill="#0A1526" stroke="#164E63" stroke-width="1.3"/>
+    <polygon points="1240,122 1176,152 1176,180 1240,150" fill="#10203C" stroke="#1E40AF" stroke-width="1.3"/>
+  </g>
+
+  <!-- glass sphere -->
+  <g>
+    <circle cx="1408" cy="158" r="38" fill="url(#sphere)" filter="url(#softGlow)"/>
+    <circle cx="1396" cy="144" r="7" fill="#FFFFFF" opacity="0.85"/>
+    <ellipse cx="1408" cy="204" rx="26" ry="6" fill="#6366F1" opacity="0.35" filter="url(#bigGlow)"/>
+  </g>
+
+  <!-- small floating iso cubes -->
+  <g opacity="0.92">
+    <polygon points="1022,96 1052,110 1022,124 992,110" fill="#22D3EE" opacity="0.85"/>
+    <polygon points="992,110 1022,124 1022,146 992,132" fill="#0E7490"/>
+    <polygon points="1052,110 1022,124 1022,146 1052,132" fill="#155E75"/>
+  </g>
+  <g opacity="0.92">
+    <polygon points="1476,338 1502,350 1476,362 1450,350" fill="#A855F7" opacity="0.85"/>
+    <polygon points="1450,350 1476,362 1476,382 1450,370" fill="#7C3AED"/>
+    <polygon points="1502,350 1476,362 1476,382 1502,370" fill="#6D28D9"/>
+  </g>
+  <!-- small violet torus -->
+  <circle cx="1096" cy="318" r="24" fill="none" stroke="#A855F7" stroke-width="5" opacity="0.8" filter="url(#softGlow)"/>
+
+  <!-- node network accents -->
+  <g stroke="#67E8F9" stroke-width="1.3" fill="#67E8F9" opacity="0.55">
+    <line x1="1078" y1="70" x2="1148" y2="118"/>
+    <line x1="1148" y1="118" x2="1222" y2="78"/>
+    <line x1="1222" y1="78" x2="1305" y2="52"/>
+    <circle cx="1078" cy="70" r="3.4"/>
+    <circle cx="1148" cy="118" r="3.4"/>
+    <circle cx="1222" cy="78" r="3.4"/>
+    <circle cx="1305" cy="52" r="3.4"/>
+  </g>
+  <g stroke="#C084FC" stroke-width="1.3" fill="#C084FC" opacity="0.5">
+    <line x1="1330" y1="420" x2="1418" y2="392"/>
+    <line x1="1418" y1="392" x2="1508" y2="430"/>
+    <circle cx="1330" cy="420" r="3.2"/>
+    <circle cx="1418" cy="392" r="3.2"/>
+    <circle cx="1508" cy="430" r="3.2"/>
+  </g>
+
+  <!-- vignette -->
+  <rect width="1600" height="533" fill="url(#vignette)"/>
 </svg>
