@@ -1,12 +1,11 @@
 <p align="center">
-  <img src="assets/obsidian-hero.png" alt="Custom hero banner — Shrujan Mitbavkar, IT engineering student and software engineer intern, with SM monogram, isometric stack, orbit ring, and blue-to-violet studio lighting" width="100%">
+  <img src="assets/obsidian-hero.png" alt="Shrujan Mitbavkar — engineering ideas into reliable software. IT engineering student and software engineer intern." width="100%">
 </p>
 
 <h1 align="center">Engineering ideas into reliable software.</h1>
 
 <p align="center">
-  <strong>Shrujan Mitbavkar</strong><br>
-  IT Engineering Student · Software Engineer Intern
+  <strong>Shrujan Mitbavkar</strong> — IT Engineering Student · Software Engineer Intern
 </p>
 
 <p align="center">
@@ -15,27 +14,21 @@
   <a href="https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400">LinkedIn</a>
 </p>
 
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
+---
 
 ## About Me
 
-I'm an Information Technology engineering student at Shree Rayeshwar Institute of Engineering &amp; Information Technology, Goa, and a Software Engineer Intern at Persistent Systems, Verna, Goa. I build complete applications end to end — interface, backend, database, and deployment — with a particular interest in backend functionality, reliable workflows, and Software Testing. I learn by shipping: every project below started as a real problem and ended as working software, in production or in CI.
-
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
+IT engineering student at Shree Rayeshwar Institute of Engineering &amp; Information Technology, Goa, and Software Engineer Intern at Persistent Systems, Verna. I build complete applications end to end — interface, backend, database, and deployment — with a focus on backend functionality, reliable workflows, and Software Testing.
 
 ## Technical Skills
 
-**Programming Languages**  
+**Languages**  
 `C` `C++` `Java` `Python` `JavaScript`
 
-**Frontend Development**  
+**Frontend**  
 `HTML` `CSS` `JavaScript`
 
-**Backend Development**  
+**Backend**  
 `Node.js` `Express` `FastAPI`
 
 **Databases**  
@@ -44,108 +37,55 @@ I'm an Information Technology engineering student at Shree Rayeshwar Institute o
 **AI and Integrations**  
 `Google Gemini` `REST APIs`
 
-**Developer Tools and Testing**  
-`Git` `GitHub` `Postman` `Figma` `Docker` `GitHub Actions` `Jest` `Firebase Hosting`
+**Tools**  
+`Git` `GitHub Actions` `Docker` `Jest` `Postman` `Figma`
 
 **Practices**  
 Manual Software Testing · Bug Triage · UI/UX Design
 
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
-
 ## Featured Projects
 
-### 01 · SupportSenseAI
+### SupportSenseAI
 
-<p><code>Internship</code> <code>Team project</code> <code>Backend</code> <code>AI</code></p>
+`Internship` `Team project` `Backend` `AI`
 
-An AI-assisted customer support ticketing platform built by a four-person team during the Persistent Systems internship. A ticket management core — creation, assignment, duplicate detection, and an enforced status workflow — pairs with a Python FastAPI microservice that uses Google Gemini for triage, sentiment analysis, suggested replies, and response-quality checks.
+An AI-assisted customer support ticketing platform built by a four-person team during the Persistent Systems internship — a ticket lifecycle core paired with a FastAPI microservice using Google Gemini for triage, sentiment analysis, and suggested replies. My contributions as one of four engineers: transactional ticket creation with atomic ticket-numbering, status-transition validation, concurrent integration tests against PostgreSQL in CI, role-based route authorization, schema and seed automation, and documentation.
 
-**Core capabilities**
+`React` `Node.js` `Express` `PostgreSQL` `Python` `FastAPI` `Google Gemini` `Docker` `GitHub Actions`
 
-- Ticket lifecycle management with enforced, validated status transitions
-- AI-assisted triage, sentiment analysis, and suggested replies via Google Gemini
-- Role-based authorization across API routes
-- CI pipeline running integration tests against PostgreSQL
-
-**My contributions** *(one of four engineers)*
-
-- Transactional ticket creation with atomic ticket-number generation
-- Status-transition validation (state machine)
-- Concurrent ticket-creation integration testing against PostgreSQL in CI
-- Role-based route authorization
-- Database schema and seed automation for deployment
-- Technical documentation
-
-**Stack**  
-`React` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Python` `FastAPI` `Google Gemini` `Docker` `GitHub Actions`
-
-**Links**  
 [My fork](https://github.com/shrujan1021/SupportSenseAI) · [Original repository](https://github.com/ByteLounge/SupportSenseAI)
 
----
+### Bug Tracking System
 
-### 02 · Bug Tracking System
+`Personal project` `Deployed`
 
-<p><code>Personal project</code> <code>Deployed</code> <code>Web app</code></p>
+A web app for structured bug reporting — a submission form feeds a Firestore-backed dashboard with review, deletion, and a one-click Open → Closed workflow.
 
-A web application for structured bug reporting and tracking. Reports submitted through a dedicated form land in Firestore with an initial **Open** status; a live dashboard reviews, prioritizes, and deletes entries, with a one-click Open → Closed workflow.
-
-**Core capabilities**
-
-- Bug-report submission: title, steps, expected vs. actual behavior, priority
-- Firestore-backed dashboard with review and deletion
-- Open → Closed status workflow with one-click closure
-
-**Stack**  
 `HTML` `CSS` `JavaScript` `Firebase Firestore` `Firebase Hosting`
 
-**Links**  
 [Repository](https://github.com/shrujan1021/BUG_TRACKING_SYSTEM) · [Live demo](https://bug-tracker-1f6f2.web.app)
 
----
+### Restaurant Reservation System
 
-### 03 · Restaurant Reservation System
+`Academic project`
 
-<p><code>Academic project</code> <code>Web app</code></p>
+A restaurant reservation web app with a MySQL booking store covering the full CRUD lifecycle for reservations.
 
-A restaurant reservation web application backed by a MySQL booking store, covering the full CRUD lifecycle for reservations.
-
-**Stack**  
 `HTML` `CSS` `JavaScript` `MySQL`
-
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
 
 ## Experience
 
 **Software Engineer Intern — Persistent Systems** · Verna, Goa
 
-Contributed to **SupportSense AI** as part of a four-person internship team: backend reliability and engineering discipline — transactional ticket creation, status-transition validation, Software Testing in CI, route authorization, and deployment automation. [Project details →](#01--supportsenseai)
-
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
+Backend engineering on the four-person SupportSense AI internship team — transactional workflows, validation, CI testing, and deployment automation. [Project details →](#supportsenseai)
 
 ## Additional Projects
 
-**Medication Reminder System** — A team hardware/software project on the Arduino Uno that triggers time-based medication alerts through a buzzer, LED indicator, and OLED display.
-
-`Arduino Uno` `Embedded systems`
-
-<p align="center">
-  <img src="assets/section-marker.svg" alt="" width="360">
-</p>
+**Medication Reminder System** — Team Arduino Uno project with buzzer, LED, and OLED display for time-based medication alerts.
 
 ## Contact
 
 <p align="center">
-  <img src="assets/monogram-sm.svg" alt="SM monogram" width="64">
-</p>
-
-<p align="center">
-  <a href="https://github.com/shrujan1021"><strong>github.com/shrujan1021</strong></a><br>
-  <a href="https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400"><strong>LinkedIn — Shrujan Mitbavkar</strong></a>
+  <a href="https://github.com/shrujan1021">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400">LinkedIn</a>
 </p>
