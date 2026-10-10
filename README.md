@@ -65,4 +65,4 @@ Contributed to an AI-based customer support ticket management project within an 
 ## Contact
 
 - **GitHub:** [github.com/shrujan1021](https://github.com/shrujan1021)
-- **LinkedIn:** [linkedin.com/in/shrujan-mitbavkar-a762ba400](https://linkedin.com/in/shrujan-mitbavkar-a762ba400)
+- **LinkedIn:** [linkedin.com/in/shrujan-mitbavkar-a762ba400](https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400)
