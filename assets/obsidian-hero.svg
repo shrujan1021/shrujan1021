@@ -317,7 +317,7 @@
         font-size="58" font-weight="600" letter-spacing="0.4" fill="url(#silverText)">Shrujan Mitbavkar</text>
   <rect x="140" y="344" width="330" height="1.8" fill="url(#hRule)"/>
   <text x="141" y="380" font-family="'Segoe UI Variable Display','Segoe UI Variable','Segoe UI',system-ui,sans-serif"
-        font-size="14.5" font-weight="500" letter-spacing="3.4" fill="#96A0B0">INFORMATION TECHNOLOGY · WEB DEVELOPMENT · TESTING</text>
+        font-size="14.5" font-weight="500" letter-spacing="3.4" fill="#96A0B0">INFORMATION TECHNOLOGY · WEB DEVELOPMENT · SOFTWARE TESTING</text>
 
   <!-- ===================== ATMOSPHERE ===================== -->
   <rect width="1920" height="640" fill="url(#vig)"/>

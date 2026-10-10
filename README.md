@@ -10,6 +10,16 @@ I'm **Shrujan Mitbavkar**, an Information Technology student at Shree Rayeshwar 
 
 ## Featured projects
 
+### SupportSenseAI
+
+An AI-assisted customer support ticketing platform built by a four-person team during the Persistent Systems internship. It combines a ticket management core — creation, assignment, duplicate detection, and an enforced status workflow — with a Python FastAPI microservice that uses Google Gemini for triage, sentiment analysis, suggested replies, and response-quality checks.
+
+**My contributions (one of four):** transactional ticket creation with atomic ticket-number generation, status-transition validation, a concurrent ticket-creation integration test running in GitHub Actions CI against PostgreSQL, role-based route authorization, database schema and seed automation for deployment, and technical documentation.
+
+**Stack:** React (Vite, Tailwind CSS) · Node.js · Express · PostgreSQL · Python · FastAPI · Google Gemini · Docker · GitHub Actions
+
+**[My fork](https://github.com/shrujan1021/SupportSenseAI)** · **[Original repository](https://github.com/ByteLounge/SupportSenseAI)**
+
 ### Bug Tracking System
 
 A web application that turns informal bug reports into structured, trackable tickets — stored in Firebase Firestore and triaged from a shared dashboard.
@@ -24,14 +34,6 @@ A web application that turns informal bug reports into structured, trackable tic
 **Stack:** HTML · CSS · JavaScript (ES modules) · Firebase Firestore · Firebase Hosting
 
 **[Live demo](https://bug-tracker-1f6f2.web.app)** · **[Source code](https://github.com/shrujan1021/BUG_TRACKING_SYSTEM)**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shrujan1021/BUG_TRACKING_SYSTEM/main/assets/report.png" alt="Bug report form with structured fields and priority selection" width="720">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shrujan1021/BUG_TRACKING_SYSTEM/main/assets/dashboard.png" alt="Bug dashboard listing reports with status badges and triage actions" width="720">
-</p>
 
 ### Restaurant Reservation System
 
