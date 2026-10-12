@@ -168,13 +168,6 @@ A web application for structured bug reporting. A submission form captures the t
   <a href="https://bug-tracker-1f6f2.web.app"><img src="https://img.shields.io/badge/Live_demo-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Bug Tracking System live demo"></a>
 </p>
 
----
-
-### Other Projects
-
-- **Restaurant Reservation System** — Academic web app with a MySQL booking store covering the full CRUD lifecycle for reservations. `HTML` `CSS` `JavaScript` `MySQL`
-- **Medication Reminder System** — Team Arduino Uno project with a buzzer, LED, and OLED display for time-based medication alerts. `Arduino` `C++`
-
 <p align="center">
   <img src="assets/obsidian-divider.svg" alt="" width="100%">
 </p>
@@ -182,12 +175,12 @@ A web application for structured bug reporting. A submission form captures the t
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shrujan1021&theme=tokyonight&hide_border=true&hide=stars,issues&include_all_commits=true" alt="Shrujan Mitbavkar's GitHub statistics" height="150">
+  <img src="https://github-readme-stats.vercel.app/api?username=shrujan1021&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Shrujan Mitbavkar's GitHub statistics" height="150">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrujan1021&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Languages used across Shrujan Mitbavkar's public repositories" height="150">
 </p>
 
 <p align="center">
-  <sub>Auto-generated from my public GitHub activity. Star and issue counts are hidden because they are currently zero.</sub>
+  <sub>Auto-generated from my public GitHub activity.</sub>
 </p>
 
 <p align="center">
