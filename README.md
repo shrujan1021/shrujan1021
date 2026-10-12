@@ -15,6 +15,7 @@
 </p>
 
 <p align="center">
+  <a href="https://shrujan1021.github.io/"><img src="https://img.shields.io/badge/Portfolio-shrujan1021.github.io-E0A45C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio — shrujan1021.github.io"></a>
   <a href="#featured-projects"><img src="https://img.shields.io/badge/View_My_Work-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="View My Work"></a>
   <a href="https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:shrujanmitbavkar@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me"></a>
@@ -225,6 +226,7 @@ Shree Rayeshwar Institute of Engineering &amp; Information Technology, Goa
 </p>
 
 <p align="center">
+  <a href="https://shrujan1021.github.io/"><img src="https://img.shields.io/badge/Portfolio-shrujan1021.github.io-E0A45C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio — shrujan1021.github.io"></a>
   <a href="https://github.com/shrujan1021"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://www.linkedin.com/in/shrujan-mitbavkar-a762ba400"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:shrujanmitbavkar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
